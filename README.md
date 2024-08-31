@@ -36,6 +36,3 @@ To run the application:
 ## Author
 Satya Suresh Devalla
 
----
-
-This should provide clear guidance on how to run the application along with the detailed app description.
