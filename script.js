@@ -3,8 +3,6 @@ document.getElementById('get-weather').addEventListener('click', function() {
     const apiKey = '89c2ee9dd6e019731363298d212c8712'; // Replace with your OpenWeatherMap API key
     const url = `https://api.openweathermap.org/data/2.5/weather?q=${city},&APPID=${apiKey}&units=metric`;
 
-    //api.openweathermap.org/data/2.5/weather?q=London,uk&APPID=89c2ee9dd6e019731363298d212c8712
-
     fetch(url)
         .then(response => {
             if (!response.ok) {
